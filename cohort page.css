@@ -1,0 +1,99 @@
+table, td, th{
+    border: 1px hidden;
+    border-collapse: collapse;
+    }
+    
+    table{
+        width: 75%;
+        font-size: 18px;
+        margin: auto;
+    }
+    
+    thead{
+        background: rgb(226, 220, 220);
+        color: blueviolet;
+        width: max-content;
+    }
+.prep{
+display: flex;
+margin-left: 13%;
+}
+.search{
+    /* position: relative; */
+     /* margin-left: 10px; */
+    float: right;
+     /* padding: 6px; */
+     align-items: center;
+  
+}
+.fa{
+position: absolute;
+margin-left: 160px;
+font-size: 18px;
+
+}
+
+.student{
+margin-left: 55%;
+
+}
+
+.stdlist{
+background-color: blue;
+color: white;
+border-radius: 5px;
+}
+h1{
+    font-size: 25px;
+    color: blue;
+    margin-left: 13%;
+    margin-bottom: auto;
+}
+.goos{
+    color: green;
+    font-size: 20px;
+}
+
+.scroll{
+    display: inline-block;
+    margin-left: 5px;
+    height: fit-content;
+    width: 10px;
+
+}
+.space{
+   margin-right: 10px;
+}
+.green{
+    background: orangered;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.yellow{
+    background: yellow;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.gold{
+    background: blueviolet;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.check{
+    display: flex;
+}
+img{
+    width: 30px;
+    border-radius: 50%;
+    padding: 8px;
+}
+.me{
+display: flex;
+align-items: center;
+ 
+}
+
