@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(236, 230, 236);
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+}
+.courses{
+  margin-top: 50px;
+}
+.all h1{
+  text-transform: capitalize;
+  position: absolute;
+  left: 30px;
+  top: 10px; 
+}
+.all p{
+  font-size: 25px;
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+
+.img img{
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  background: rgb(184, 153, 184);
+  padding:50px 100px;
+  border-radius: 15px;
+}
+
+.imge img{ 
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  background: orange;
+  padding:50px 100px;
+  border-radius: 15px;
+
+}
+.imger img{ 
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  background: rgb(237, 122, 141);
+  padding:50px 100px;
+  border-radius: 15px;
+}
+
+.my{
+  display: flex;
+}
+.my .learn{
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  width: 30%;
+  background: white;
+  border-radius: 15px;
+}
+
+.learn{
+  text-align: center;
+  padding:20px 30px;
+  margin: auto;
+}
+.learn:hover{
+  border: 2px solid rgb(174, 190, 174);
+}
+.learn h3{
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: left;
+ }
+ progress{
+  width: 300px;
+  height: 13px;
+  border-radius: 5px;
+ }
+
+ progress::-webkit-progress-bar {
+  background-color: #dbd5d5;
+  border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+  background-color: rgb(20, 135, 20);
+  border-radius: 5px;
+}
+ span{
+  display:inline-block;
+  margin-top: 10px;
+}
+
+.learn p{
+ width: 90%;
+ font-size: 25px;
+ background:transparent;
+ padding: 8px;
+ border: 2px solid black;
+ border-radius: 10px;
+ color: black;
+ margin-top: 30px;
+ margin-left: 20px;
+ text-transform: capitalize;
+}
+.learn p:hover{
+  background: green;
+  color: white;
+}
+
+ /* Media query for screens with a maximum width of 600px */
+ @media screen and (max-width: 1200px ) {
+  .img img{
+    margin: 0 auto;
+    padding:40px 80px;
+    width: 100%;
+  }
+  
+  .imge img{ 
+    margin: 0 auto;
+    padding:40px 80px;
+    width: 100%;
+  }
+  .imger img{ 
+    margin: 0 auto;
+    padding:40px 80px;
+    width: 100%;
+  }
+  .learn h3{
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 5px;
+   }
+   progress{
+    width: 150px;
+    margin-right: 30px;
+   }
+   .learn p{
+    font-size: 20px;
+    padding: 6px;
+   }
+   span{ 
+    margin-top: 5px;
+  }
+
+  @media  (min-width:600px) and (max-width: 931px ) {
+    .my{
+      display: inline-block;
+    }
+    .my .learn{
+      width: 50%;
+      height: fit-content;
+      }
+     
+    }
+    .img img{
+      padding:15px 20px;
+      width: 100%;
+      margin-right: 20px;
+    }
+    
+    .imge img{ 
+      padding:25px 50px;
+      width: 100%;
+    }
+    .imger img{ 
+      padding:25px 50px;
+      width: 100%;
+      margin-right: 20px;
+    }
+  }
+ }

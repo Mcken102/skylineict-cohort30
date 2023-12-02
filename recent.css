@@ -1,0 +1,303 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+/* .months{
+ 
+} */
+.recent{
+  background: rgb(235, 233, 233);
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  width: 100%;
+  height: 90vh;
+}
+.month{
+  background: white;
+  margin:10px 20px;
+  border-radius: 10px;
+  width: 110%;
+  height: 20vh;
+}
+.month p{
+  padding: 10px;
+  font-size: 20px;
+  
+ 
+}
+.month ul{
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+  font-size: 20px;
+  align-content: center;
+  cursor: pointer;
+}
+.month ul li{
+
+margin-bottom: 10px;
+}
+.jenny .icon-bar i{
+  color: gold;
+}
+.jenny .icon-bar{
+  padding-left: 40px;
+  margin: 2px;
+}
+
+/* recent courses css start here */
+
+.recent-courses{
+  background: white;
+  margin:20px 20px;
+  border-radius: 10px;
+  width: 110%;
+  height: 42vh;
+}
+.recent-courses h1{
+  padding: 5px 30px;
+  text-transform: capitalize;
+}
+.toppa{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.toppa span i{
+  padding-right: 30px;
+  font-size: 30px;
+}
+
+.toppa h1{
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+.webs img{
+  width: 100px;
+}
+.development{
+  text-transform: capitalize;
+}
+
+.webs{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin: 20px 0;
+}
+.enroll button{
+  background: rgb(48, 8, 48);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-size: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.enroll button:hover{
+  background: #b89eb8;
+}
+.enroll span i{
+  padding-left: 15px;
+  font-size: 25px;
+}
+
+/* the right side section start here */
+
+.top{
+  background: white;
+  margin:10px 20px;
+  border-radius: 10px;
+  width: 37%;
+  height: fit-content;
+}
+.top h1{
+  padding: 10px;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+h1 .dotted i{
+  padding: 100px;
+  
+}
+.rasel{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+
+}
+.rasel img{
+  width: 60px;
+  background: transparent;
+  border-radius: 50%;
+  border: 2px solid grey;
+}
+.rasel .assign{
+  background: #b89eb8;
+  padding: 10px 15px;
+  border-radius: 50px;
+  border: 2px solid purple;
+  color: purple;
+}
+.rasel .assig{
+  background: #ccd56a;
+  padding: 10px 15px;
+  border-radius: 50px;
+  border: 2px solid #7f9407;
+  color:#7f9407;
+}
+.rasel .assi{
+  background: #ce7399;
+  padding: 10px 15px;
+  border-radius: 50px;
+  border: 2px solid #80003e;
+  color:#80003e;
+}
+.mondol h2{
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.mondol p{
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 5px 0;
+}
+.lucky{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+}
+.lucky img{
+  width: 65px;
+  background: transparent;
+  border-radius: 50%;
+  border: 2px solid grey;
+}
+.lucky .ass{
+  background: #738dce;
+  padding: 10px 15px;
+  border-radius: 50px;
+  border: 2px solid #040f2c;;
+  color:#040f2c;
+}
+.saleh{
+  padding-left: 1px;
+}
+.saleh h2{
+  font-size: 25px;
+  text-transform: capitalize;
+ 
+}
+.saleh p{
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 5px 0;
+}
+
+/* all mobile responsiveness start here */
+
+@media screen and (max-width: 1394px ) {
+  .top{
+    width: 32%;
+    height: 80vh;
+  }
+  .recent-courses{
+    width: 110%;
+    height: 57vh;
+  }
+  .month{
+    width: 110%;
+    height: 20vh;
+  }
+
+}
+@media screen and (max-width: 1290px ) {
+
+  .recent-courses{
+    width:100%;
+    height: 72vh;
+    }
+
+.month{
+  width: 100%;
+}
+}
+
+@media (max-width: 1290px ) and (min-width: 600px ) {
+
+  .recent{ 
+    display: inline-block;
+    height: 170vh;
+  }
+  .recent-courses{
+    width:95%
+
+    }
+
+.month{
+  width: 95%;
+}
+.top{
+  width: 95%;
+  height: 80vh;
+}
+.saleh h2{
+  font-size: 20px;
+}
+.saleh p{
+  font-size: 15px;
+}
+.lucky img{
+  width: 60px;
+}
+.mondol h2{
+  font-size: 20px;
+}
+.mondol p{
+  font-size: 15px;
+}
+.rasel img{
+  width: 55px;
+}
+.top h1{
+  font-size: 21px;
+}
+.enroll button{
+  padding: 6px 8px;
+  font-size: 12px;
+}
+.jenny h1{
+  font-size: 18px;
+  padding-left: 20px;
+}
+.development h2{
+  font-size: 18px;
+  padding-left: 5px;
+}
+.development p{
+  font-size: 12px;
+  padding-left: 5px;
+}
+.icon-bar i{
+  font-size: 10px;
+  
+}
+.jenny .icon-bar{
+  padding-left:5px;
+}
+.recent-courses h1{
+  font-size: 22px;
+}
+}
+   
