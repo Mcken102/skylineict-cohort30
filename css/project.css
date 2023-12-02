@@ -1,0 +1,183 @@
+body{
+    background-color: rgb(190, 236, 248);
+    font-family: cursive;
+}
+
+.main-container{
+    background-color: #f8f4f4;
+    width: 95%;
+    padding: 5px 20px;
+    border-radius: 10px;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.container-flex{
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 25px;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 28%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 5px 0 gray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+   
+}
+
+
+.container:hover{
+    background-color:rgb(234, 254, 255) ;
+    transform: translate(-5px);
+}
+
+
+/* time container design */
+
+.time{
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 15px;
+
+}
+
+.per1{
+    color: rgb(183, 0, 255);
+}
+
+
+/* course container design */
+
+.course{
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 15px;
+
+}
+
+.per2{
+    color: orange;
+}
+
+
+/* assignment container design */
+
+.assignment{
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 15px;
+
+}
+
+.per3{
+    color: rgb(255, 56, 89);
+}
+
+/* here is the icon design */
+
+.icon-1{
+    font-size: 25px;
+    background-color: rgb(244, 216, 255);
+    color: rgb(183, 0, 255);
+    padding: 5px 12px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.icon-2{
+    font-size: 25px;
+    background-color: rgb(252, 238, 216);
+    color: orange;
+    padding: 5px 12px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.icon-3{
+    font-size: 25px;
+    background-color: rgb(252, 220, 226);;
+    color: rgb(225, 56, 89);
+    padding: 5px 12px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+/* mobile responsiveness */
+
+@media (min-width:780px) and (max-width:960px){
+
+.container{
+    width: 25%;
+    font-size: 13px;
+    box-shadow: 1px 1px 5px 0 gray;
+}
+
+.icon{
+    font-size: 20px;
+    padding: 3px 10px;
+    border-radius: 7px;
+    margin-right: 10px;
+    
+}
+
+}
+
+
+@media (min-width:370px) and (max-width: 780px){
+
+    .container-flex{
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+
+    .container{
+        margin-bottom: 20px;
+        width: 60%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 5px 0 gray;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        /* align-items: center; */
+    }
+
+
+    .main-container{
+        background-color: #f8f4f4;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+
+
+    
+    }
