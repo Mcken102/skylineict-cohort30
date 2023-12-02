@@ -1,0 +1,290 @@
+body{
+    background-color: red;
+    padding: 0;
+    margin: 0;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+.register{
+
+    background-color: antiquewhite;
+    width: 98%;
+    margin: auto;
+    position: relative;
+    border-radius: 15px;
+}
+
+.Heading h1{
+color: darkblue;
+text-align: center;
+text-transform: capitalize;
+font-weight: bolder;
+padding-top: 10px;
+
+}
+
+.Heading{
+
+    text-align: center;
+}   
+
+span{
+    color: rgb(255, 0, 34);
+    position: absolute;
+    left: 28%
+
+}
+
+
+.personal-info label{
+    text-align: left;
+    color: blue;
+    position: absolute;
+    left: 25%;
+    margin-bottom: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+       
+}
+
+.personal-info{
+
+    margin-bottom: 25px;
+}
+
+input[type=text]{
+
+width: 50%;
+height: 15px;
+border-style: none;
+border-bottom: 2px solid darkblue;
+background-color: transparent;
+outline: none;
+color: darkblue;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 18px;
+font-weight: bolder;
+
+}
+
+
+
+.flex-info{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    color: blue;
+    /* background-color: blue; */
+    text-align: start;
+    width: 50%;
+    
+}
+
+
+.flex-info select{
+    border-style: none;
+    border-bottom: 2px solid darkblue;
+    background-color: transparent;
+    outline: none;
+    color: darkblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 300%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+
+.age input[type=text]{
+
+    width: 100%;
+    height: 40px;
+    
+    
+}
+
+
+/* Divider Code */
+.divider{
+
+    display: flex;
+    align-items: center;
+    color: blue;
+    text-transform: capitalize;
+    width: 56%;
+    margin: auto;
+    
+}
+
+.divider::before, .divider::after{
+
+    content:"";
+    padding: 1px;
+    background-color: blue;
+    flex: 1;
+    margin:30px ;
+    
+}
+
+/* social media icons code  */
+.google{
+    width: 50px;
+    padding: 3px 25px;
+}
+
+.facebook{
+    width: 25px;
+    padding: 3px 0;
+}
+
+
+.apple{
+    width: 28px;
+    padding: 3px 27px;
+}
+
+
+/* Footer Code */
+
+input[type=submit]{
+    background-color: darkblue;
+    padding: 10px 60px;
+    color: white;
+    font-size: 15px;
+    border-radius:15px;
+    margin-top: 20px;
+
+}
+
+input[type=submit]:hover{
+
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+.footer h4{
+
+    color: blue;
+   padding: 20px 0;
+ 
+}
+
+/* Mobile Responsiveness */
+
+@media screen and (max-width:700px) {
+
+    body{
+
+        background-color: yellow;
+    }
+
+    .personal-info label{
+        text-align: left;
+        color: blue;
+        position: absolute;
+        left: 12%;
+        margin-bottom: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 12px;
+           
+    }
+
+
+    span{
+        color: rgb(255, 0, 34);
+        position: absolute;
+        left: 18.5%
+    }
+
+    input[type=text]{
+
+        width: 80%;
+        
+        }
+
+
+        .flex-info{
+
+            display: inline;
+            margin-left: 405px;
+      
+        }
+
+        .gender{
+
+            margin-top: -35px;
+            margin-left: 55px;
+            width: 25px;
+        }
+        
+        .age{
+          
+            position: absolute;
+           left: 70%;
+           right: 0;
+           margin-top: -70px;
+           width: 20%;
+         
+        }
+
+        .age input{
+        margin-top: -50px;
+        }
+
+
+        input[type=submit]{
+            background-color: darkblue;
+            padding: 5px 40px;
+            color: white;
+            font-size: 15px;
+            border-radius:15px;
+            margin-top: 30px;
+        
+        }
+
+
+
+        .divider::before, .divider::after{
+
+            content:"";
+            padding: 1px;
+            background-color: blue;
+            flex: 1;
+            margin:10px ;
+            
+        }
+
+
+        .divider{
+
+            display: flex;
+            align-items: center;
+            color: blue;
+            text-transform: capitalize;
+            width: 90%;
+            margin: auto;
+            
+        }
+
+        
+
+        /* .flex-info{
+        display: flex;
+        position: absolute;
+        right: 50%;
+        justify-content: space-between;} */
+        
+        }
+
+     
+
+
+    
+
+
+ 
