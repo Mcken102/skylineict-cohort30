@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.assignment{
+  background: #fbf8f8;
+  margin-top:50px;
+}
+.my{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.my h1{
+  text-transform: capitalize;
+  font-size: 35px;
+  padding-left: 160px;
+}
+.my p{
+  text-transform: capitalize;
+  font-size: 25px;
+  padding-right: 180px;
+}
+.my i{
+  padding-left: 20px;
+}
+.properties{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  margin: 30px auto;
+  width: 80%;
+  height: 20vh;
+  border-radius: 10px;
+  border-left: 10px solid #c4adc4;
+  box-shadow: 5px 5px 10px #888888;
+  z-index: -1;
+}
+.property{
+  padding-left: 20px;
+  text-transform: capitalize;
+  line-height: 30px;
+}
+.property h2{
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.property p{
+  font-size: 18px;
+}
+.qualified p{
+ text-transform: capitalize;
+ font-size: 18px;
+ letter-spacing: 1px;
+ color: grey;
+}
+.properties h3{
+  padding:10px;
+  background: #dbcfdb;
+  width:fit-content;
+  text-transform: capitalize;
+  margin-right: 30px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  color: purple;
+}
+.properties .color{
+  background:rgb(228, 202, 202);
+  color: brown;
+}
+ /* Media query for screens with a maximum width of 600px */
+ @media screen and (max-width: 1130px ){
+  .properties h3{
+    width: fit-content;
+  }
+  .my h1{
+    font-size: 30px;
+    padding-left: 120px;
+  }
+  .my p{
+    font-size: 22px;
+    padding-right: 150px;
+  }
+ }
+ @media (min-width: 600px ) and (max-width: 950px ){
+  .my h1{
+    font-size: 27px;
+    padding-left: 100px;
+  }
+  .my p{
+    font-size: 20px;
+    padding-right: 100px;
+  }
+  .my i{
+    padding-left: 10px;
+  }
+  .property h2{
+    font-size: 20px;
+    letter-spacing: 0px;
+  }
+  .property p{
+    font-size: 15px;
+  }
+  .qualified p{
+    font-size: 16px;
+    letter-spacing: 0px;
+  }
+  .qualified h2{
+    font-size: 18px;
+  }
+  .properties h3{
+    padding:10px;
+    width: fit-content;
+    margin-right: 45px;
+    letter-spacing: 0px;
+    font-size: 15px;
+  }
+
+ }

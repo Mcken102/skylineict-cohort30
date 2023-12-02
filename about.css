@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/* body{
+
+    background-color:rgb(227, 213, 240);
+    width: 70%;
+    margin: auto;
+
+} */
+
+  /* here is my backgroud design */
+
+.can{
+     display: flex;
+     gap: 10px;
+    background-color:rgb(235, 238, 238);
+    margin: 20px auto;
+    padding: 20px 40px;
+    width: 70%;
+    height: 100vh;
+    position: relative;
+
+}
+
+ /* background design ends here */
+
+.icon{
+
+    position: relative;
+    right: -42%;
+    color: rgb(185, 184, 184);
+    font-size: 15px;
+    padding-inline: 8px;
+    
+}
+
+.rate{
+    position: absolute;
+    top: 45px;
+    display: flex;
+    
+}
+
+.rate p{
+    padding-left: 20px;
+    color: lightgray;
+    text-transform: capitalize;
+}
+
+.rate i{
+    color:rgb(247, 209, 114);
+    font-size: 12px;
+}
+
+video{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 60%;
+
+}
+
+ /* about design start's here */
+
+.link{
+    display: inline-block;
+    color: rgb(182, 177, 177);
+    text-transform: capitalize;
+    padding-top: 20px;
+
+}
+
+hr{
+    width: 110%;
+    
+}
+
+.support{
+    padding: 0 3px;
+}
+
+.support:hover{
+   color:mediumseagreen;
+}
+
+h2{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-bottom: 18px;
+}
+
+ /* this is my progress design */
+
+ ul{
+    
+    background-color:white;
+    border-radius: 10px;
+         
+}
+
+.full{
+    
+    padding: 0px 15px;
+    text-transform: capitalize;
+}
+
+.full p{
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.stack{
+    position: absolute;
+    right: 70px;
+}
+
+.prog{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.ellips{
+    float: right;
+    color: lightgray;
+}
+
+progress[value] {
+
+    width: 100%;
+    height: 3.5vh;
+    color: mediumseagreen;
+    
+}
+
+p{
+    color: rgb(56, 55, 55);
+}
+
+li p{
+
+    margin-bottom: 20px;
+    
+}
+  /* my content design starts here */
+
+  .content{
+
+    width: 40%;
+    padding: 10px;
+}
+
+  .cp{
+
+    float:right;
+    padding-top: 25px;
+
+    /* position: relative;
+    left: 75px; */
+  }
+
+  .cp i{
+
+    color:mediumseagreen;
+  }
+
+  h3{
+     text-transform: capitalize;
+    display: inline-block;
+    padding-left: 20px;
+    margin: 20px auto;
+  }
+.c a{
+   
+    color: black;
+    
+}
+
+.c a:hover{
+   
+    color: white;
+    
+}
+
+.c{
+     padding: 10px 0;
+    background-color: rgb(241, 238, 238);
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    text-transform: capitalize;
+  
+}
+
+.ca{
+    /* position: relative;
+    left: 43%; */
+    float:right;
+    padding-right: 10px;
+    
+}
+
+.cb{
+      position: relative;
+     left: 39%;
+}
+.cc{
+    position: relative;
+    left: 60%;
+    
+}
+
+.cd{
+    position: relative;
+    left: 45%;
+    
+}
+
+.ce{
+    position: relative;
+    left: 55%;
+    
+}
+
+
+.c:hover{
+    background-color:mediumseagreen;
+    border-radius: 10px;
+
+}
+
+li i{
+    padding: 0px 10px;
+    
+}
+
+ul li a{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+ul li.a{
+    margin: 10px 0;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    word-spacing: 170px;
+
+}
+
+ul li.aa{
+
+    margin: 10px 0;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    word-spacing: 160px;
+    
+
+}
+
+ul li.aa i{
+
+    color:lightgreen;
+}
+
+ul li.a i{
+
+    color:lightgreen;
+}
+
+/* content design ends here */
+
+/* mobile responsiveness starts Here */
+
+@media (min-width: 500px) and (max-width: 1000px) {
+
+    
+}
